@@ -1,35 +1,33 @@
+<!-- #region HEAD -->
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <title>Index</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
 
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" href="ma_avatar.png">
-    </head>
-    <body>
-        <header>Hello Header</header>
-        <div class="highlighted">
-            <h1>Mate academy</h1>
-            Regular text<br>
+    <link rel="icon" href="ma_avatar.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normilize.css">
+</head>
+<!-- #endregion -->
+<body>
+    <div class="box">.box</div>
+
+    <section class="container">Container
+        
+        <div class="box">.box Child 1</div>
+        <div>Not a box</div>
+
+        <div class="box">.box Child 2
+            <div class="box">.box Grandchild 1</div>
+            <div>Not a box</div>
+            <div class="box">.box Grandchild 2</div>
         </div>
 
-        <p>
-            <br>
-            <strong>Important text</strong><br>
-            <span class="important">Important text</span><br>
-            
-            <br>
-            <em class="important">Text with emphasis</em><br>
-            <span class="emphasis">Text with emphasis</span><br>
-            
-            <br>
-            <a href="https://google.com" target="_blank">Link to Google.com</a><br>
-            <span class="link important emphasis">
-                Link to Google.com
-            </span>
-        </p>
-    </body>
+    </section>
+
+    <div class="box">.box Next Sibling</div>
+    <div class="box">.box Later Sibling</div>
+</body>
 </html>
